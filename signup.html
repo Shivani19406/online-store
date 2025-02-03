@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .signup
+        {
+            background-color: antiquewhite;
+            justify-content: center;
+            display: flex;
+        }
+        .user{
+            margin-bottom: 15px;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup">  
+        <form>
+            <div class="user">
+                <h1>Signup</h1>
+            </div>
+            <div class="user">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name" required>
+            </div>
+            <div class="user">
+                <label for="Email">Email</label>
+                <input type="text" id="Email" name="Email" required>
+            </div>
+            <div class="user">
+                <label>password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="user">
+                <label>Confirm password</label>
+                <input type="password" id="Confirm password" name="Confirm password" required>
+            </div>
+            <div class="user">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
